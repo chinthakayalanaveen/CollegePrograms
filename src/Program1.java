@@ -7,7 +7,7 @@ public class Program1 {
 			x[i]=x[i-1];
 		}
 		x[0]=t;
-		//System.out.println("\nAfter rotation");
+		System.out.println("\nAfter rotation");
 		for(int i=0;i<=arrLen;i++) {
 			System.out.print(+x[i]+" ");
 		}
@@ -28,7 +28,6 @@ public class Program1 {
 			System.out.print(num[i]+" ");
 		}
 		System.out.println();
-		arRR(num);
 		arRR(num);
 		arRR(num);
 		arRR(num);
