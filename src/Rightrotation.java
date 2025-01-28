@@ -7,9 +7,9 @@ public class Rightrotation {
 			x[i]=x[i-1];
 		}
 		x[0]=t;
-		System.out.println("\nAfter rotation");
+		//System.out.println("\nAfter rotation");
 		for(int i=0;i<=arrLen;i++) {
-			System.out.print(+x[i]+" ");
+			System.out.print(+x[i]+"  ");
 		}
 		System.out.println();
 	}
@@ -23,11 +23,11 @@ public class Rightrotation {
 		 */
 		int num[]= {10,20,30,40,50};
 		int arrLen=num.length;
-		//System.out.println("Before rotation");
+		System.out.println("Before rotation");
 		for(int i=0;i<=arrLen-1;i++) {
-			System.out.print(num[i]+" ");
+			System.out.print(num[i]+"  ");
 		}
-		System.out.println();
+		System.out.println("\nAfter rotation");
 		arRR(num);
 		arRR(num);
 		arRR(num);
